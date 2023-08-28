@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-full h-full bg-[#0f172a] text-slate-300 overflow-hidden relative">
+        <div id="content"
+            class="w-4/12 h-auto absolute top-10 border-slate-400 border-1 ring-1 ring-slate-800 bg-slate-800 rounded-md px-7 py-6 text-center shadow-lg duration-300 translate-x-full translate-y-[-300px]">
+            <p id="author" class="text-slate-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, eveniet. Veniam illo beatae fugiat
+                tempore vel recusandae tenetur quae possimus?
+            </p>
+            <button id="close-btn"
+                class="px-4 py-1 mt-4 text-lg bg-red-700 rounded-full text-white shadow-lg transition hover:bg-red-800">
+                close
+            </button>
+        </div>
+        <button id="new-qoute-btn"
+            class="absolute top-[50%] left-[45%] px-6 py-2 bg-slate-800 rounded-full text-white shadow-lg transition hover:bg-slate-700">
+            Show Modal
+        </button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
