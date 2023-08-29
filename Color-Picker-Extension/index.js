@@ -24,4 +24,10 @@ function changeContent(color) {
 
 function copyColor() {
   navigator.clipboard.writeText(selectedColor);
+  colorDiv.innerHTML = `Copied <i class="fa-solid fa-copy"></i>`;
+  // setTimeout(() => {
+  //   colorDiv.textContent = "#fff";
+  //   selectedColor = "#fff";
+  //   changeContent("#fff");
+  // }, 500);
 }

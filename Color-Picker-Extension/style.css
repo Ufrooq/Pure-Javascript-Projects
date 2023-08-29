@@ -61,7 +61,7 @@ body {
   z-index: 2;
   left: 90px;
   bottom: 20px;
-  padding: 7px 20px;
+  padding: 9px 20px;
   color: white;
   background-color: rgb(235, 91, 91);
   border-radius: 3px;
@@ -72,7 +72,7 @@ body {
 }
 
 .color-id {
-  padding: 5px 20px;
+  padding: 7px 15px;
   text-align: center;
   background-color: white;
   position: absolute;
@@ -83,4 +83,13 @@ body {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   cursor: pointer;
   font-size: 1rem;
+  transition: all 0.5s;
+}
+.pick-btn i {
+  margin-right: 10px;
+  color: white;
+}
+
+i {
+  color: #000;
 }
