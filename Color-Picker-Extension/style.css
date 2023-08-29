@@ -5,48 +5,82 @@
   padding: 0px;
 }
 
-html,
 body {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .wrapper {
   max-width: 350px;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 150px;
   background-color: red;
   position: relative;
-  overflow: hidden;
 }
 
 .my-span:nth-child(1) {
   position: absolute;
-  background: rgb(184, 172, 172);
-  width: 70px;
+  background: #ffbe86;
+  width: 60px;
   height: 100%;
 }
 .my-span:nth-child(2) {
   position: absolute;
-  background: rgb(184, 172, 172);
-  width: 70px;
+  left: 60px;
+  background: #ffe156;
+  width: 60px;
   height: 100%;
 }
 .my-span:nth-child(3) {
   position: absolute;
-  background: rgb(184, 172, 172);
-  width: 70px;
+  left: calc(60 * 2px);
+  background: #ffe9ce;
+  width: 60px;
   height: 100%;
 }
 .my-span:nth-child(4) {
   position: absolute;
-  background: rgb(184, 172, 172);
-  width: 70px;
+  left: calc(60 * 3px);
+  background: #ffb5c2;
+  width: 60px;
   height: 100%;
 }
 .my-span:nth-child(5) {
   position: absolute;
-  background: rgb(184, 172, 172);
-  width: 70px;
+  left: calc(60 * 4px);
+  background: #3777ff;
+  width: 60px;
   height: 100%;
+}
+
+.pick-btn {
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 2;
+  left: 90px;
+  bottom: 20px;
+  padding: 7px 20px;
+  color: white;
+  background-color: rgb(235, 91, 91);
+  border-radius: 3px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.color-id {
+  padding: 5px 20px;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+  left: 20px;
+  top: 20px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+  font-size: 1rem;
 }
