@@ -1,0 +1,52 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 350px;
+  width: 350px;
+  height: 250px;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+}
+
+.my-span:nth-child(1) {
+  position: absolute;
+  background: rgb(184, 172, 172);
+  width: 70px;
+  height: 100%;
+}
+.my-span:nth-child(2) {
+  position: absolute;
+  background: rgb(184, 172, 172);
+  width: 70px;
+  height: 100%;
+}
+.my-span:nth-child(3) {
+  position: absolute;
+  background: rgb(184, 172, 172);
+  width: 70px;
+  height: 100%;
+}
+.my-span:nth-child(4) {
+  position: absolute;
+  background: rgb(184, 172, 172);
+  width: 70px;
+  height: 100%;
+}
+.my-span:nth-child(5) {
+  position: absolute;
+  background: rgb(184, 172, 172);
+  width: 70px;
+  height: 100%;
+}
